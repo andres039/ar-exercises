@@ -9,3 +9,4 @@ puts "----------"
 
 @store3 = Store.find_by(name: "Gastown")
 @store3.destroy
+puts Store.count
